@@ -1,0 +1,36 @@
+import { GrauConfig } from "~/typings";
+
+export function createBaseConfig(): GrauConfig {
+	return {
+		theme: "automatic",
+		tabs: [],
+		environments: [],
+		activeTab: null,
+		autoConnect: true,
+		tableSuggest: true,
+		wordWrap: true,
+		queryHistory: [],
+		queryFavorites: [],
+		localDriver: "memory",
+		localStorage: "",
+		surrealPath: "",
+		surrealUser: "root",
+		surrealPass: "root",
+		surrealPort: 8000,
+		enableConsole: true,
+		enableListing: false,
+		queryTimeout: 10,
+		updateChecker: true,
+		queryListing: "history",
+		resultListing: "json",
+		zoomLevel: 1,
+		errorChecking: true,
+		lastPromptedVersion: null,
+		tabSearch: false,
+		numberFormat: "fr",
+		numbersAfterFraction: 3,
+		dateFormat: "DD/MM/YYYY",
+		dateTimeFormat: "DD/MM/YYYY HH:mm",
+		moneyUnitLabel: "TND",
+	};
+}
