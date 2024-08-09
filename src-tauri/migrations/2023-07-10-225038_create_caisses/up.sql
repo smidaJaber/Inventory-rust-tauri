@@ -1,0 +1,16 @@
+-- Your SQL goes here
+-- Your SQL goes here
+CREATE TABLE
+IF NOT EXISTS users
+(
+    id INTEGER PRIMARY KEY NOT NULL,
+    uname VARCHAR NOT NULL,
+    pwd VARCHAR NOT NULL
+);
+CREATE TABLE
+IF NOT EXISTS caisses
+(
+    id INTEGER PRIMARY KEY NOT NULL,
+    name VARCHAR NOT NULL,
+    weight INTEGER NOT NULL
+);
